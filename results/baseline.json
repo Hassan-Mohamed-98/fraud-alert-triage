@@ -1,0 +1,17 @@
+{
+  "alerts": 300,
+  "fraud_cases": 74,
+  "escalated": 141,
+  "true_positives": 50,
+  "false_positives": 91,
+  "missed_fraud": 24,
+  "correctly_closed": 135,
+  "precision": 0.3546099290780142,
+  "recall": 0.6756756756756757,
+  "f1": 0.46511627906976744,
+  "workload_reduction": 0.53,
+  "roc_auc_of_risk_score": 0.6603384357809136,
+  "backend": "baseline",
+  "errors": 0,
+  "seconds": 0.0
+}

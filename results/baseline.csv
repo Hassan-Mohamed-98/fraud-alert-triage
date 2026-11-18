@@ -1,0 +1,301 @@
+alert_id,is_fraud,decision,risk_score,reason
+ALRT-0001,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, NEW_DEVICE"
+ALRT-0002,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0003,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0004,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, VELOCITY"
+ALRT-0005,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0006,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0007,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0008,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0009,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0010,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0011,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0012,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0013,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0014,False,escalate,50,"2 rule(s) fired: VELOCITY, RISKY_MERCHANT"
+ALRT-0015,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0016,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0017,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0018,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0019,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0020,False,escalate,50,"2 rule(s) fired: VELOCITY, NEW_DEVICE"
+ALRT-0021,False,escalate,50,"2 rule(s) fired: VELOCITY, NEW_DEVICE"
+ALRT-0022,False,escalate,50,"2 rule(s) fired: VELOCITY, RISKY_MERCHANT"
+ALRT-0023,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0024,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0025,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0026,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, VELOCITY, NEW_DEVICE"
+ALRT-0027,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0028,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0029,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0030,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0031,True,escalate,50,"2 rule(s) fired: NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0032,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0033,True,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0034,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0035,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0036,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0037,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0038,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0039,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0040,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0041,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, NEW_DEVICE"
+ALRT-0042,True,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0043,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0044,True,close,25,1 rule(s) fired: VELOCITY
+ALRT-0045,False,escalate,50,"2 rule(s) fired: VELOCITY, NEW_DEVICE"
+ALRT-0046,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, VELOCITY"
+ALRT-0047,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0048,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0049,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0050,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, NEW_DEVICE"
+ALRT-0051,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, VELOCITY"
+ALRT-0052,False,escalate,50,"2 rule(s) fired: VELOCITY, RISKY_MERCHANT"
+ALRT-0053,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0054,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0055,True,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0056,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0057,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0058,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0059,True,escalate,50,"2 rule(s) fired: NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0060,True,escalate,75,"3 rule(s) fired: FOREIGN_TXN, VELOCITY, NEW_DEVICE"
+ALRT-0061,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0062,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0063,True,escalate,75,"3 rule(s) fired: FOREIGN_TXN, NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0064,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0065,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0066,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0067,True,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0068,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0069,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0070,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0071,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0072,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0073,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0074,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0075,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0076,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0077,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0078,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0079,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0080,True,close,25,1 rule(s) fired: VELOCITY
+ALRT-0081,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0082,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0083,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0084,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0085,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0086,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, VELOCITY"
+ALRT-0087,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0088,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0089,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0090,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0091,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0092,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0093,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, VELOCITY"
+ALRT-0094,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0095,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0096,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0097,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0098,False,escalate,50,"2 rule(s) fired: VELOCITY, RISKY_MERCHANT"
+ALRT-0099,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0100,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0101,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0102,True,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0103,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0104,True,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0105,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0106,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0107,True,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0108,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0109,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0110,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0111,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0112,True,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0113,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0114,True,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0115,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, NEW_DEVICE"
+ALRT-0116,True,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0117,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0118,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0119,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0120,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0121,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0122,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0123,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0124,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0125,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0126,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0127,True,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0128,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0129,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0130,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0131,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0132,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0133,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0134,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, NEW_DEVICE"
+ALRT-0135,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0136,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0137,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0138,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0139,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0140,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0141,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0142,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0143,True,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0144,False,escalate,75,"3 rule(s) fired: FOREIGN_TXN, VELOCITY, RISKY_MERCHANT"
+ALRT-0145,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0146,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0147,False,escalate,75,"3 rule(s) fired: FOREIGN_TXN, VELOCITY, NEW_DEVICE"
+ALRT-0148,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0149,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, VELOCITY"
+ALRT-0150,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0151,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, NEW_DEVICE"
+ALRT-0152,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0153,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0154,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, NEW_DEVICE"
+ALRT-0155,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0156,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0157,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0158,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0159,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0160,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, NEW_DEVICE"
+ALRT-0161,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0162,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0163,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0164,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0165,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0166,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0167,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0168,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0169,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0170,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0171,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0172,True,escalate,75,"3 rule(s) fired: FOREIGN_TXN, VELOCITY, RISKY_MERCHANT"
+ALRT-0173,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0174,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0175,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0176,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0177,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0178,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, VELOCITY"
+ALRT-0179,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0180,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, VELOCITY"
+ALRT-0181,True,close,25,1 rule(s) fired: VELOCITY
+ALRT-0182,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0183,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0184,True,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0185,True,escalate,50,"2 rule(s) fired: VELOCITY, NEW_DEVICE"
+ALRT-0186,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0187,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0188,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0189,True,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0190,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0191,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0192,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0193,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0194,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0195,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0196,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0197,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0198,False,escalate,50,"2 rule(s) fired: NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0199,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0200,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0201,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0202,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0203,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0204,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0205,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, VELOCITY, NEW_DEVICE"
+ALRT-0206,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0207,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0208,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, VELOCITY, RISKY_MERCHANT"
+ALRT-0209,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0210,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, VELOCITY"
+ALRT-0211,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0212,True,escalate,75,"3 rule(s) fired: FOREIGN_TXN, NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0213,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, VELOCITY, RISKY_MERCHANT"
+ALRT-0214,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0215,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0216,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0217,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0218,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0219,True,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0220,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, VELOCITY, NEW_DEVICE"
+ALRT-0221,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0222,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0223,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0224,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0225,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0226,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0227,False,escalate,50,"2 rule(s) fired: VELOCITY, NEW_DEVICE"
+ALRT-0228,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0229,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0230,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0231,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0232,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0233,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0234,True,escalate,50,"2 rule(s) fired: VELOCITY, NEW_DEVICE"
+ALRT-0235,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0236,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0237,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0238,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0239,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0240,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0241,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0242,True,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0243,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0244,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0245,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0246,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0247,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0248,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0249,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0250,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0251,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0252,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0253,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0254,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0255,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0256,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0257,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0258,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0259,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, NEW_DEVICE"
+ALRT-0260,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0261,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0262,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0263,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0264,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0265,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, RISKY_MERCHANT"
+ALRT-0266,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0267,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0268,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0269,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0270,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0271,False,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE, RISKY_MERCHANT"
+ALRT-0272,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0273,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0274,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0275,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0276,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0277,False,close,25,1 rule(s) fired: VELOCITY
+ALRT-0278,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0279,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0280,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0281,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0282,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0283,False,close,25,1 rule(s) fired: FOREIGN_TXN
+ALRT-0284,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, VELOCITY"
+ALRT-0285,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0286,True,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0287,False,close,25,1 rule(s) fired: RISKY_MERCHANT
+ALRT-0288,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0289,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0290,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0291,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0292,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0293,False,close,25,1 rule(s) fired: NEW_DEVICE
+ALRT-0294,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, VELOCITY"
+ALRT-0295,True,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN"
+ALRT-0296,True,escalate,75,"3 rule(s) fired: HIGH_AMOUNT, FOREIGN_TXN, RISKY_MERCHANT"
+ALRT-0297,False,escalate,50,"2 rule(s) fired: HIGH_AMOUNT, NEW_DEVICE"
+ALRT-0298,False,escalate,50,"2 rule(s) fired: FOREIGN_TXN, NEW_DEVICE"
+ALRT-0299,False,close,25,1 rule(s) fired: HIGH_AMOUNT
+ALRT-0300,False,close,25,1 rule(s) fired: VELOCITY
